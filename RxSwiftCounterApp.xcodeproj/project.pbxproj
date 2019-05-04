@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FF42549586F7E1C14D425A4 /* Pods_RxSwiftCounterApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1CDC6C9EF75B1E55F12013 /* Pods_RxSwiftCounterApp.framework */; };
 		CC01A138227E36E00045EEEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC01A137227E36E00045EEEA /* AppDelegate.swift */; };
 		CC01A13A227E36E00045EEEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC01A139227E36E00045EEEA /* ViewController.swift */; };
-		CC01A13D227E36E00045EEEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC01A13B227E36E00045EEEA /* Main.storyboard */; };
 		CC01A13F227E36E10045EEEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC01A13E227E36E10045EEEA /* Assets.xcassets */; };
 		CC01A142227E36E10045EEEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC01A140227E36E10045EEEA /* LaunchScreen.storyboard */; };
+		CC01A14A227E38310045EEEA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC01A149227E38310045EEEA /* ViewController.xib */; };
+		CC01A14C227E39710045EEEA /* CounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC01A14B227E39710045EEEA /* CounterViewModel.swift */; };
+		CC01A150227E3F460045EEEA /* CounterRxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC01A14F227E3F460045EEEA /* CounterRxViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		298A6560AC3070DEBE16E485 /* Pods-RxSwiftCounterApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftCounterApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftCounterApp/Pods-RxSwiftCounterApp.debug.xcconfig"; sourceTree = "<group>"; };
 		CC01A134227E36E00045EEEA /* RxSwiftCounterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftCounterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC01A137227E36E00045EEEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC01A139227E36E00045EEEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CC01A13C227E36E00045EEEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC01A13E227E36E10045EEEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC01A141227E36E10045EEEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC01A143227E36E10045EEEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC01A149227E38310045EEEA /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		CC01A14B227E39710045EEEA /* CounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewModel.swift; sourceTree = "<group>"; };
+		CC01A14F227E3F460045EEEA /* CounterRxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterRxViewModel.swift; sourceTree = "<group>"; };
+		DC1CDC6C9EF75B1E55F12013 /* Pods_RxSwiftCounterApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftCounterApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1580D3F9BB22D7123D4873 /* Pods-RxSwiftCounterApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftCounterApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftCounterApp/Pods-RxSwiftCounterApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF42549586F7E1C14D425A4 /* Pods_RxSwiftCounterApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0234395785E972DDA7018116 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				298A6560AC3070DEBE16E485 /* Pods-RxSwiftCounterApp.debug.xcconfig */,
+				EA1580D3F9BB22D7123D4873 /* Pods-RxSwiftCounterApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		841ED2FFB3B8EC95310A1163 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC1CDC6C9EF75B1E55F12013 /* Pods_RxSwiftCounterApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC01A12B227E36E00045EEEA = {
 			isa = PBXGroup;
 			children = (
 				CC01A136227E36E00045EEEA /* RxSwiftCounterApp */,
 				CC01A135227E36E00045EEEA /* Products */,
+				0234395785E972DDA7018116 /* Pods */,
+				841ED2FFB3B8EC95310A1163 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +84,12 @@
 			children = (
 				CC01A137227E36E00045EEEA /* AppDelegate.swift */,
 				CC01A139227E36E00045EEEA /* ViewController.swift */,
-				CC01A13B227E36E00045EEEA /* Main.storyboard */,
+				CC01A149227E38310045EEEA /* ViewController.xib */,
+				CC01A14F227E3F460045EEEA /* CounterRxViewModel.swift */,
 				CC01A13E227E36E10045EEEA /* Assets.xcassets */,
 				CC01A140227E36E10045EEEA /* LaunchScreen.storyboard */,
 				CC01A143227E36E10045EEEA /* Info.plist */,
+				CC01A14B227E39710045EEEA /* CounterViewModel.swift */,
 			);
 			path = RxSwiftCounterApp;
 			sourceTree = "<group>";
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC01A146227E36E10045EEEA /* Build configuration list for PBXNativeTarget "RxSwiftCounterApp" */;
 			buildPhases = (
+				0FE46915979C9C92AE0F1E28 /* [CP] Check Pods Manifest.lock */,
 				CC01A130227E36E00045EEEA /* Sources */,
 				CC01A131227E36E00045EEEA /* Frameworks */,
 				CC01A132227E36E00045EEEA /* Resources */,
+				50402A5E788A5F0C8F69FA44 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,11 +156,64 @@
 			files = (
 				CC01A142227E36E10045EEEA /* LaunchScreen.storyboard in Resources */,
 				CC01A13F227E36E10045EEEA /* Assets.xcassets in Resources */,
-				CC01A13D227E36E00045EEEA /* Main.storyboard in Resources */,
+				CC01A14A227E38310045EEEA /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FE46915979C9C92AE0F1E28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftCounterApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50402A5E788A5F0C8F69FA44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftCounterApp/Pods-RxSwiftCounterApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxOptional/RxOptional.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxOptional.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftCounterApp/Pods-RxSwiftCounterApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CC01A130227E36E00045EEEA /* Sources */ = {
@@ -136,21 +221,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC01A13A227E36E00045EEEA /* ViewController.swift in Sources */,
+				CC01A150227E3F460045EEEA /* CounterRxViewModel.swift in Sources */,
 				CC01A138227E36E00045EEEA /* AppDelegate.swift in Sources */,
+				CC01A14C227E39710045EEEA /* CounterViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CC01A13B227E36E00045EEEA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CC01A13C227E36E00045EEEA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CC01A140227E36E10045EEEA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +359,7 @@
 		};
 		CC01A147227E36E10045EEEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 298A6560AC3070DEBE16E485 /* Pods-RxSwiftCounterApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +378,7 @@
 		};
 		CC01A148227E36E10045EEEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA1580D3F9BB22D7123D4873 /* Pods-RxSwiftCounterApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
